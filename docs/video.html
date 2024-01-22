@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media</title>
+    <script src="https://cdn.dashjs.org/v4.7.3/dash.all.min.js"></script>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        video {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script>
+        function start() {
+            const url = "./media/bbb_sunflower_2160p_60fps_normal.mp4/stream.mpd";
+
+            const video = document.getElementById("video");
+            const player = dashjs.MediaPlayer().create();
+
+            player.initialize(video, url, true /* autoplay */);
+        }
+        document.addEventListener('DOMContentLoaded', start);
+    </script>
+</head>
+
+<body>
+    <video id="video" autoplay="" preload="none" controls="true">
+        <!-- <source src="./media/bbb_sunflower_2160p_60fps_normal.mp4/stream.mpd" type="application/dash+xml"> -->
+    </video>
+</body>
+
+</html>

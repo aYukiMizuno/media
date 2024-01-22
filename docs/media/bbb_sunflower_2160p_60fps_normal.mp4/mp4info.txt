@@ -1,0 +1,75 @@
+File:
+  major brand:      isom
+  minor version:    200
+  compatible brand: isom
+  compatible brand: iso2
+  compatible brand: avc1
+  compatible brand: mp41
+  compatible brand: iso5
+  fast start:       yes
+
+Movie:
+  duration:   30100 (media timescale units)
+  duration:   30100 (ms)
+  time scale: 1000
+  fragments:  yes
+
+Found 2 Tracks
+Track 1:
+  flags:        7 ENABLED IN-MOVIE IN-PREVIEW
+  id:           1
+  type:         Video
+  duration: 30100 ms
+  language: und
+  media:
+    sample count: 0
+    timescale:    60000
+    duration:     0 (media timescale units)
+    duration:     0 (ms)
+    bitrate (computed): 8955.911 Kbps
+    sample count with fragments: 1800
+    duration with fragments:     1800000
+    duration with fragments:     30000 (ms)
+  display width:  3840.000000
+  display height: 2160.000000
+  Sample Description 0
+    Coding:       avc1 (H.264)
+    Codec String: avc1.640033
+    AVC Profile:          100 (High)
+    AVC Profile Compat:   0
+    AVC Level:            51
+    AVC NALU Length Size: 4
+    AVC SPS: [67640033acca500f0010fb0110000003001000000788f1831960]
+    AVC PPS: [68e93b2c8b]
+    Width:       3840
+    Height:      2160
+    Depth:       24
+Track 2:
+  flags:        7 ENABLED IN-MOVIE IN-PREVIEW
+  id:           2
+  type:         Audio
+  duration: 30016 ms
+  language: und
+  media:
+    sample count: 0
+    timescale:    48000
+    duration:     0 (media timescale units)
+    duration:     0 (ms)
+    bitrate (computed): 320.000 Kbps
+    sample count with fragments: 938
+    duration with fragments:     1440768
+    duration with fragments:     30016 (ms)
+  Sample Description 0
+    Coding:       ac-3 (Dolby Digital (AC-3))
+    Codec String: ac-3
+    Sample Rate: 48000
+    Sample Size: 16
+    Channels:    2
+    AC-3 Data Rate: 320
+    AC-3 Stream:
+        fscod       = 0
+        bsid        = 8
+        bsmod       = 0
+        acmod       = 7
+        lfeon       = 1
+    AC-3 dac3 payload: [103da0]
